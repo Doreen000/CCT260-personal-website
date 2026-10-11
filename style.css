@@ -1,0 +1,261 @@
+body {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* Header*/
+header {
+    text-align:center;
+    padding:10px;
+    background-color: #daaa67;
+    color: white;
+}
+
+h1 a {
+    text-decoration:none;
+    color:white;
+}
+
+a:hover {
+    font-size:larger ;
+    color: #473010;
+  }
+
+
+/*Navigation*/
+
+nav {
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    padding:15px;
+    background-color: #e6c698;
+}
+
+nav a {
+    text-decoration:none;
+    color:black;
+}
+
+.tit {
+    text-align: center;
+    color: #473010;
+    font-size: 1.5em;
+}
+
+
+/* Main */
+
+main {
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:50px;
+    padding:50px;
+    background-color: #f5e8d6;
+}
+
+
+
+/* Footer */
+
+footer {
+    text-align:center;
+    padding:20px;
+    color: #888888; 
+    font-size: 0.9rem;
+    background-color: #f5e8d6;
+}
+
+.foo {
+    opacity: 0.7;
+}
+
+/*Home Page*/
+.div1 {
+    float: left;
+    margin-right: 30px;
+}
+
+.profile-photo img {
+    width:300px;
+    border-radius: 15px;
+}
+
+.about {
+    width:1100px;
+    line-height:1.8;
+}
+
+.linkedin {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Portfolio Page*/
+#portfolio {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 8px; /* 柔和圓角 */
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.projectcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.projectcard {
+    display: flex;
+    gap: 20px;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.projectcard:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.projectimage {
+    flex: 0 0 300px;
+    background-color: #bbb;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #888;
+}
+
+.proimg {
+    width: 300px;
+}
+
+.projectcontent {
+    flex: 1;
+}
+
+.projectcontent h2 {
+    font-size: 1.2rem;
+    color: #aa7427;
+    margin-bottom: 10px;
+}
+
+.projectcontent p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+
+/*resume page*/
+
+table, th, td {
+    border:1px solid;
+    width: 100%;
+    text-align:center;
+    border-collapse: collapse;
+    
+}
+
+.resmain {
+    display: block;
+}
+
+th {
+    background-color: #9e6009 ;
+    color: white;
+    padding: 10px;
+  }
+
+td {
+    background-color: white;
+    padding: 15px;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 85%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 15%;
+}
+
+.uli {
+    place-items: center;
+    padding-top: 50px;
+}
+
+/*contact page*/
+fieldset {
+    width:100%;
+}
+
+#mail {
+    width: 80%;
+}
+
+#phone {
+    width: 80%;
+}
+
+#mes {
+    width: 90%;
+}
+
+.if {
+    width: 250px;
+    border:0;
+}
+
+/*Process Page*/
+
+.promain {
+    display: block;
+    place-items: center;
+}
+
+.proh2 {
+    color: #aa7427;
+}
+
+.proim {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 40px 0;
+    width: 100%;
+  }
+
+.skt {
+    width: 200px;
+}
+
+.aip {
+    width: 500px;
+}
+
+.cc {
+    width: 430px;
+}
